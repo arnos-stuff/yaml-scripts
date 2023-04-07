@@ -66,11 +66,14 @@ Two options:
 
 (1) One-liner script install. This script is equivalent to:
 
-    - Building the PS1 core script `yamlrun script build <task> <path/to/setup.yml>`
-    - Uploading the PS1 core script `yamlrun upload f <path/to/setup.ps1>`
-    - The previous step should give you an URL of the kind http://ix.io/<letters or numbers>
-    - Your resulting one liner is just:
-    `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force ; irm <url> | iex`
+- Building the PS1 core script `yamlrun script build <task> <path/to/setup.yml>`
+- Uploading the PS1 core script `yamlrun upload f <path/to/setup.ps1>`
+- The previous step should give you an URL of the kind http://ix.io/<letters or numbers>
+- Your resulting one liner is just:
+
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force ; irm <url> | iex
+```
 
 this is the `yamlrun script BOL` or `yamlrun script build-one-liner` command.
 
