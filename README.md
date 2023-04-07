@@ -91,3 +91,6 @@ Just `pip install` it if you have it, but an executable is underway 😎
 ```powershell
 pip install yaml-scripts
 ```
+
+
+[schema-valid]:https://www.andrewvillazon.com/validate-yaml-python-schema/
