@@ -2,7 +2,7 @@
 
 ## Features
 
-- [Pydantic-like Schema validation](#schema-valid): the YAML schema has precise syntax and the build pipeline will yield warnings or stop if your file has errors in it
+- [Pydantic-like Schema validation](https://www.andrewvillazon.com/validate-yaml-python-schema/): the YAML schema has precise syntax and the build pipeline will yield warnings or stop if your file has errors in it
 - A **set of CLIs** to interact with config files:
     - `yamlrun` shows the commands
     - `yamlrun script` is the script building subcommand
@@ -94,6 +94,3 @@ Just `pip install` it if you have it, but an executable is underway 😎
 ```powershell
 pip install yaml-scripts
 ```
-
-
-[schema-valid]:https://www.andrewvillazon.com/validate-yaml-python-schema/
